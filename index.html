@@ -8,117 +8,24 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat&family=Fraunces">
+  <link rel="stylesheet" href="style.css">
 
   <title>Frontend Mentor | Product preview card component</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    html,
-    body {
-      height: 100%;
-      background-color: hsl(30, 38%, 92%);
-      font-family: 'Montserrat'
-    }
-
-    .container {
-      display: flex;
-      height: 100%;
-      justify-content: center;
-    }
-
-    .card {
-      /* height: 50%;
-      width: 50%; */
-      background-color: white;
-      height: 60%;
-      width: 570px;
-      margin: auto;
-      display: flex;
-      flex-direction: row;
-      border-radius: 8px;
-    }
-
-    .card-img img {
-      border-radius: 8px 0 0 8px; 
-    }
-
-    .card-body {
-      display: flex;
-      flex-direction: column;
-      margin: 30px;
-      justify-content: space-between;
-      color: hsl(228, 12%, 48%);
-      font-size: 14px;
-    }
-
-    .card-preview {
-      font-size: 12px;
-      letter-spacing: 5px;
-    }
-
-    .card-product-name{
-      font-family: 'Fraunces';
-      font-weight: 700;
-      font-size: 35px;
-      line-height: 95%;
-      color: hsl(212, 21%, 14%);
-    }
-    
-    .card-product-description{
-      line-height: 1.5;
-    }
-
-    .card-product-price{
-      display: flex;
-      align-items: center;
-    }
-
-    .price-now{
-      font-family: 'Fraunces';
-      font-weight: 700;
-      font-size: 35px;
-      color: hsl(158, 36%, 37%);
-    }
-
-    .real-price {
-      text-decoration: line-through;
-      margin-left: 1rem;
-    }
-
-    .btn-secondary {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      background-color: hsl(158, 36%, 37%);
-      color: white;
-      font-weight: bold;
-      border: none;
-      width: 100%;
-      padding: 15px;
-      border-radius: 8px;
-    }
-
-    .btn-secondary:hover {
-      background-color: hsl(156, 42%, 18%);
-      cursor: pointer;
-    }
-
-    .btn-secondary img {
-      margin-right: 10px;
-    }
 
   </style>
 </head>
 
 <body>
-  <div class="container">
     <div class="card">
       <div class="card-img">
         <img src="./images/image-product-desktop.jpg" alt="Paris" height="100%" width="auto">
       </div>
       <div class="card-body">
         <div class="card-preview">
-          PERFUME
+          Perfume
         </div>
         <div class="card-product-name">
             Gabrielle Essence Eau De Parfum
@@ -141,7 +48,6 @@
         </button>
       </div>
     </div>
-  </div>
 </body>
 
 </html>
