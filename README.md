@@ -17,5 +17,5 @@ This is a solution to the [Product preview card component challenge on Frontend 
 - Flexbox
 
 ## Author
-- Linkedin - [@waensaranya](https://www.linkedin.com/in/waensaran/)
+- Linkedin - [@waensaran](https://www.linkedin.com/in/waensaran/)
 - Fastwork - [@waensaran](https://fastwork.co/user/waensaran)
