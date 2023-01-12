@@ -5,7 +5,7 @@
 }
 
 body {
-  height: 100vh;
+  min-height: 100vh;
   background-color: hsl(30, 38%, 92%);
   display: flex;
   justify-content: center;
@@ -13,17 +13,13 @@ body {
   font-family: 'Montserrat'
 }
 
-.card {
+main {
   background-color: white;
   height: 500px;
   width: 670px;
   display: flex;
   border-radius: 10px;
   overflow: hidden; /* image radius */
-}
-
-.card-img {
-  width: 100%;
 }
 
 .card-img img {
@@ -34,22 +30,21 @@ body {
 
 .card-body {
   display: flex;
+  width: 50%;
   flex-direction: column;
-  margin: 30px;
+  margin: 1.5rem;
   justify-content: space-between;
   color: hsl(228, 12%, 48%);
   font-size: 14px;
 }
 
-.card-preview {
+.card-product-preview{
   text-transform: uppercase;
   letter-spacing: 5px;
 }
 
-.card-product-name{
+h1 {
   font-family: 'Fraunces';
-  font-weight: 700;
-  font-size: 35px;
   line-height: 95%;
   color: hsl(212, 21%, 14%);
 }
@@ -70,8 +65,7 @@ body {
   color: hsl(158, 36%, 37%);
 }
 
-.real-price {
-  text-decoration: line-through;
+del {
   margin-left: 1rem;
 }
 
@@ -98,30 +92,37 @@ body {
 }
 
 
-@media screen and (max-width: 450px) {
-  .card {
+@media screen and (max-width: 460px) {
+  main {
     flex-direction: column;
     height: auto;
-    width: 100%;
+    /* width: 100%; */
     margin: 2rem 1rem 0 1rem;
   }
 
-  .card-img img {
+  picture {
+    height: 17rem;
+  }
+
+  .card-body{
+    width: auto;
+  }
+
+  .card-img img{
     width: 100%;
-    height: 270px;
     object-fit: cover;
   }
 
-  .card-product-name {
-    margin: 20px 0 10px 0;
+  h1 {
+    margin: 1rem 0 0.5rem 0;
   }
 
   .card-product-description {
-    margin: 10px 0 10px 0;
+    margin: 0.5rem 0 0.5rem 0;
   }
 
   .card-product-price {
-    margin: 10px 0 10px 0;
+    margin: 0.5rem 0 0.5rem 0;
   }
 
 }
